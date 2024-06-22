@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
+    font-Weight: 400, 600, 700;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.container{
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 200px;
+}
+
+.faqs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.faqs img{
+    height: 35px;
+}
+
+.faqs h1{
+    font-size: 50px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 0 20px 0;
+}
+
+.text{
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    margin-bottom: 20px;
+}
+.texts-h3{
+    margin-bottom: 20px;
+}
+
+.texts-h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.texts-h3 img{
+    cursor: pointer;
+}
+
+.p p{
+    display: none;
+    margin-bottom: 20px;
+}
+
+.show p{
+    display: flex;
+}
+
+.minus{
+    display: none;
+}
+
